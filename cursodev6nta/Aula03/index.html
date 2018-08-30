@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<title>Cadastro</title>
+
+</head>
+<body>
+
+<form action="cadastroUsuario.html" method="post">
+<fieldset>
+<legend>Cadastro de Usuário</legend>
+
+<p>Nome Completo</p>
+<input type="text" placeholder="Incerir Nome Completo" required>
+<p>Senha</p>
+<input type="password" placeholder="Senha" required>
+<p>Sexo:</p>
+<input type="radio" name="sexo" value="m">Masculino
+<input type="radio" name="sexo" value="f">Femenino
+<p>Esportes:</p>
+<input type="checkbox" name="esporte" value="basquete">Basquete
+<input type="checkbox" name="esporte" value="xadrez">Xadrez
+<input type="checkbox" name="esporte" value="volei">Vôlei
+<input type="hidden" value="cadastroUsuario">
+
+
+<p>Selecione sua cidade:</p>
+<select name="Cidade">
+<option value="belem">Belém</option>
+<option value="ananindeua">Ananindeua</option>
+</select>
+
+
+<p>Observações:</p>
+<textarea rows="5" cols="20"></textarea>
+
+<p>Data de Nascimento:</p>
+<input type="date">
+
+<p>Escolha uma cor:</p>
+<input type="color">
+
+<p>Informe seu e-mail:</p>
+<input type="email">
+
+
+<br>
+<br>
+<input type="submit"> 
+<input type="button" value="Cancelar">
+<input type="reset" value="Limpar">
+
+</fieldset>
+ </form>
+
+
+
+
+
+
+</body>
+</html>
