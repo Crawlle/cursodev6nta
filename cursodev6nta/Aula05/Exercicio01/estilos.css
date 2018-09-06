@@ -33,6 +33,7 @@
 	background-color:rgb(240,230,140);
 	}
 	#acoes{
+	border: dotted;
 	background-color:rgb(144,238,144);
 	}
 	#acoes legend{
@@ -40,6 +41,7 @@
 	}
 	#acoes input{
 	color:white;
+	
 	}
 	.enviar{
 	background-color:green;
