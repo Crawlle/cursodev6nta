@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title>Cadastre seu currículo</title>
+	<link href="estilos.css" rel="stylesheet">
+	
+
+</head>
+<body>
+	<h1>Formulário de cadastro</h1>
+	
+	
+	<div><fieldset id="dadosPessoais">
+		<legend>Dados pessoais</legend>
+		<p>Nome:<input type="text" required></p>
+		<p>E-mail:<input type="email" required></p>
+		<p>Cidade:<input type="text" required></p>
+		<p>Estado:<select name="estado">
+			<option>Escolha...</option>
+			<option value="acre">Acre</option>
+			<option value="alagoas">Alagoas</option>
+			<option value="amapa">Amapá</option>
+			<option value="amazonas">Amazonas</option>
+			<option value="bahia">Bahia</option>
+			<option value="ceara">Ceará</option>
+		</select></p>
+		
+	</fieldset></div>
+	
+	<br>
+	
+	<div><fieldset id="dadosPro">
+		<legend>Dados Profissionais</legend>
+		<p>Cargo pretendido:</p>
+			<input type="radio" name="cargo" value="analistaSist"> Analista de sistemas
+			<input type="radio" name="cargo" value="analistaDados"> Analista de banco de dados
+			<input type="radio" name="cargo" value="analistaSup"> Analista de suporte
+		<p>Tecnologia de interesse:</p>
+			<input type="checkbox" name="tecInteresse" value="java"> Java
+			<input type="checkbox" name="tecInteresse" value="htmlcss"> Html,css
+			<input type="checkbox" name="tecInteresse" value="javascript"> Javascript
+			<input type="checkbox" name="tecInteresse" value="sql"> SQL
+		<p>Mini currículo:</p>
+		<textarea rows="10" cols="100"></textarea>	
+	
+	</fieldset></div>
+	
+	<br>
+	
+	<div><fieldset id="acoes">
+		<legend>Ações</legend>
+		<input class="enviar" type="submit"> 
+		<input class="limpar" type="reset" value="Limpar">
+	
+	</fieldset></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

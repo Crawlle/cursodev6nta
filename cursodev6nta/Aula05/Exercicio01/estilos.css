@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+	
+	h1{
+	text-align:center;
+	}
+	
+	#dadosPessoais{
+	border: dotted;
+	Background-color:rgb(135,206,250);
+	
+	}
+	#dadosPessoais legend{
+	font-size:20px;
+	background-color:rgb(135,206,250);
+	}
+	
+	input{
+	background-color:rgb(240,230,140);
+	}
+	select{
+	Background-color:rgb(240,230,140);
+	}
+	
+	#dadosPro{
+	border: dotted;
+	Background-color: rgb(240,128,128); 
+	}
+	#dadosPro legend{
+	font-size:20px;
+	background-color:rgb(240,128,128);
+	}
+	textarea{
+	background-color:rgb(240,230,140);
+	}
+	#acoes{
+	background-color:rgb(144,238,144);
+	}
+	#acoes legend{
+	background-color: rgb(144,238,144);
+	}
+	#acoes input{
+	color:white;
+	}
+	.enviar{
+	background-color:green;
+	}
+	.limpar{
+	background-color:rgb(255,69,0);
+	}
+
+
+
+
