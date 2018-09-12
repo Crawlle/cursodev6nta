@@ -1,0 +1,23 @@
+@charset="ISO-8859-1";
+
+Body{
+	background-color:#f1f1f1;
+}
+h3{
+	color:red;
+}
+table{
+	border-style:solid;
+	font-size:16pt;
+	font-type:Tahoma;
+}
+table th{
+	color:blue;
+	
+}
+table tr{
+	border:solid;
+}
+table td{
+	border:solid;
+}
