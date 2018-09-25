@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Página inicial</title>
+    
+    
+    
+</head>
+<body>
+
+	 <table border>
+        <tr>
+            <td><center><b>Triângulo</b></center></td>
+            <td><center><b>Quadrado</b></center></td>
+            <td><center><b>Círculo</b></center></td>
+            <td><center><b>Trapézio</b></center></td>
+            <td><center><b>Retângulo</b></center></td>
+        </tr>
+
+        <tr>
+            <td>
+                <center><img src="imagens/triangulo.jpg" width="200"></center>
+            </td>
+
+            <td>
+                <center><img src="imagens/quadrado.png" width="200"></center>
+            </td>
+
+            <td>
+                <center><img src="imagens/circulo.png" width="200"></center>
+            </td>
+
+            <td>
+                <center><img src="imagens/trapezio.png" width="200"></center>
+            </td>
+
+            <td>
+                <center><img src="imagens/retangulo.png" width="200"></center>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <form id="triang">
+                    <center>
+                        <div style="width:50px;display:inline-block;">
+                            Base:
+                        </div>
+                        <input type="text" id="base">
+                        <br>
+
+                        <div style="width:50px;display:inline-block;margin-top:5px;">
+                            Altura:
+                        </div>
+                        <input type="text" id="altura">
+                        <br><br>
+
+                        <input type="submit" value="calc. área">
+
+                        <br><br>
+
+                        Área: <input type="text" id="areaTriang" readonly disabled>
+                    </center>
+                </form>
+            </td>
+
+            <td>
+                <form id="quad" style="height: 208px; ">
+                    <center>
+                        Lado: <input type="text" id="lado">
+                        <br><br>
+
+                        <input type="submit" value="calc. área">
+
+                        <br><br>
+
+                        Área: <input type="text" id="areaQuad" readonly disabled>
+                    </center>
+                </form>
+            </td>
+
+            <td>
+                <form id="circ">
+                    <center>
+                        Raio: <input type="text" id="raio">
+                        <br><br>
+
+                        <input type="submit" value="calc. área">
+
+                        <br><br>
+
+                        Área: <input type="text" id="areaCirc" readonly disabled>
+                    </center>
+                </form>
+            </td>
+
+            <td>
+                <form id="trap">
+                    <center>
+                        <div style="width:100px;display:inline-block;">
+                            Base maior:
+                        </div>
+                        <input type="text" id="baseMaiorTrap">
+                        <br>
+
+                        <div style="width:100px;display:inline-block;margin-top:5px;">
+                            Base menor:
+                        </div>
+                        <input type="text" id="baseMenorTrap">
+                        <br>
+
+                        <div style="width:100px;display:inline-block;margin-top:5px;">
+                            Altura:
+                        </div>
+                        <input type="text" id="alturaTrap">
+                        <br><br>
+
+                        <input type="submit" value="calc. área">
+                        <br><br>
+
+                        Área: <input type="text" id="areaTrap" readonly disabled>
+                    </center>
+                </form>
+            </td>
+
+            <td>
+                <form id="retang">
+                    <center>
+                        <div style="width:50px;display:inline-block;">
+                            Base:
+                        </div>
+                        <input type="text" id="baseRetang">
+                        <br>
+
+                        <div style="width:50px;display:inline-block;margin-top:5px;">
+                            Altura:
+                        </div>
+                        <input type="text" id="alturaRetang">
+                        <br><br>
+
+                        <input type="submit" value="calc. área">
+
+                        <br><br>
+
+                        Área: <input type="text" id="areaRetang" readonly disabled>
+                    </center>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+<script src="jScript.js"></script>
+
+</body>
+</html>    
